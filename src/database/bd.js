@@ -1,7 +1,7 @@
 export const data = {
-    users: [
-      {
-    "id": 1,
+  users: [
+    {
+      "id": 1,
       "first_name": "Jesus",
       "last_name": "Delgado",
       "email": "eldaicho725656@gmail.com",
@@ -60,77 +60,82 @@ export const data = {
       "role_id": "Joyero",
       "status": "Inactive"
     }
-    ],
-    
-    customers: [
-
-      {
-        id: 8,
-        first_name: "Pedro",
-        last_name: "García",
-        email: "pedrogarcía@gmail.com",
-        phone: "04128945678",
-        status: "active"
-      },
-      {
-        id: 9,
-        first_name: "Juana",
-        last_name: "Lacubana",
-        email: "dalemamijuanalacubana@gmail.com",
-        phone: "04241231122",
-        status: "inactive"
-      },
-      {
-        id: 10,
-        first_name: "Ervin",
-        last_name: "Fermin",
-        email: "ervinfermin@gmail.com",
-        phone: "04249095488",
-        status: "active"
-      },
-    ],
-
-    products: [
-      {
-        id: 100,
-        name: "Golden Ring",
-        description: "18K gold engagement ring",
-        category: "Rings",
-        price: 370,
-        stock: 10,
-        material: "Gold",
-        supplier_id: 1000, 
-        status: "Active",
-        created_at: "2024-12-08T00:00:00",
-        updated_at: "2024-12-08T00:00:00"
-      },
-      {
-        id: 101,
-        name: "Silver chain",
-        description: "Fine 925 silver chain",
-        category: "Chains",
-        price: 150,
-        stock: 12,
-        material: "Silver",
-        supplier_id: 1001, 
-        status: "Active",
-        created_at: "2024-12-08T00:00:00",
-        updated_at: "2024-12-08T00:00:00"
-        
-      },
-      
-    ],
+  ],
   
-    suppliers: [
-      {
-        id: 1000,
-        name: "Supplier A",
-        contact_info: "contactsupplierA@gmail.com"
-      },
-      {
-        id: 1001,
-        name: "Supplier B",
-        contact_info: "contactsupplierB@gmail.com"
-      },
-    ]
-  };
+  customers: [
+    {
+      "id": 8,
+      "first_name": "Pedro",
+      "last_name": "García",
+      "email": "pedrogarcía@gmail.com",
+      "phone": "04128945678",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "first_name": "Juana",
+      "last_name": "Lacubana",
+      "email": "dalemamijuanalacubana@gmail.com",
+      "phone": "04241231122",
+      "status": "inactive"
+    },
+    {
+      "id": 10,
+      "first_name": "Ervin",
+      "last_name": "Fermin",
+      "email": "ervinfermin@gmail.com",
+      "phone": "04249095488",
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "first_name": "Yaily",
+      "last_name": "Casique",
+      "email": "yailylapelirrojaculona@gmail.com",
+      "phone": "04148273849",
+      "status": "active"
+    }
+  ],
+
+  products: [
+    {
+      "id": 100,
+      "name": "Golden Ring",
+      "description": "18K gold engagement ring",
+      "category": "Rings",
+      "price": 370,
+      "stock": 10,
+      "material": "Gold",
+      "supplier_id": 1000,
+      "status": "Active",
+      "created_at": "2024-12-08T00:00:00",
+      "updated_at": "2024-12-08T00:00:00"
+    },
+    {
+      "id": 101,
+      "name": "Silver chain",
+      "description": "Fine 925 silver chain",
+      "category": "Chains",
+      "price": 150,
+      "stock": 12,
+      "material": "Silver",
+      "supplier_id": 1001,
+      "status": "Active",
+      "created_at": "2024-12-08T00:00:00",
+      "updated_at": "2024-12-08T00:00:00"
+    }
+  ],
+  
+  suppliers: [
+    {
+      "id": 1000,
+      "name": "Supplier A",
+      "contact_info": "contactsupplierA@gmail.com"
+    },
+    {
+      "id": 1001,
+      "name": "Supplier B",
+      "contact_info": "contactsupplierB@gmail.com"
+    }
+  ]
+};
