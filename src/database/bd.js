@@ -89,4 +89,48 @@ export const data = {
         status: "active"
       },
     ],
+
+    products: [
+      {
+        id: 100,
+        name: "Golden Ring",
+        description: "18K gold engagement ring",
+        category: "Rings",
+        price: 370,
+        stock: 10,
+        material: "Gold",
+        supplier_id: 1000, 
+        status: "Active",
+        created_at: "2024-12-08T00:00:00",
+        updated_at: "2024-12-08T00:00:00"
+      },
+      {
+        id: 101,
+        name: "Silver chain",
+        description: "Fine 925 silver chain",
+        category: "Chains",
+        price: 150,
+        stock: 12,
+        material: "Silver",
+        supplier_id: 1001, 
+        status: "Active",
+        created_at: "2024-12-08T00:00:00",
+        updated_at: "2024-12-08T00:00:00"
+        
+      },
+      
+    ],
+  
+    suppliers: [
+      {
+        id: 1000,
+        name: "Supplier A",
+        contact_info: "contactsupplierA@gmail.com"
+      },
+      {
+        id: 1001,
+        name: "Supplier B",
+        contact_info: "contactsupplierB@gmail.com"
+      },
+    ]
   };
