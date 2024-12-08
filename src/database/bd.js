@@ -66,19 +66,27 @@ export const data = {
 
       {
         id: 8,
-        first_name: "John",
-        last_name: "Doe",
-        email: "john.doe@example.com",
-        phone: "123456789",
+        first_name: "Pedro",
+        last_name: "García",
+        email: "pedrogarcía@gmail.com",
+        phone: "04128945678",
         status: "active"
       },
       {
         id: 9,
-        first_name: "Jane",
-        last_name: "Smith",
-        email: "jane.smith@example.com",
-        phone: "987654321",
+        first_name: "Juana",
+        last_name: "Lacubana",
+        email: "dalemamijuanalacubana@gmail.com",
+        phone: "04241231122",
         status: "inactive"
+      },
+      {
+        id: 10,
+        first_name: "Ervin",
+        last_name: "Fermin",
+        email: "ervinfermin@gmail.com",
+        phone: "04249095488",
+        status: "active"
       },
     ],
   };

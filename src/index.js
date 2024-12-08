@@ -10,6 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(userRoutes);
 app.use(loginRoutes);
+app.use(customersRoutes);
 
 app.listen(PORT);
 console.log("Server on port", PORT);
