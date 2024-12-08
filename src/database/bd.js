@@ -1,7 +1,7 @@
 export const data = {
     users: [
       {
-    "id": "1",
+    "id": 1,
       "first_name": "Jesus",
       "last_name": "Delgado",
       "email": "eldaicho725656@gmail.com",
@@ -11,7 +11,7 @@ export const data = {
       "status": "Active"
     },
     {
-      "id": "3",
+      "id": 3,
       "first_name": "Juan",
       "last_name": "Guerrero",
       "email": "juan@gmail.com",
@@ -21,7 +21,7 @@ export const data = {
       "status": "Inactive"
     },
     {
-      "id": "4",
+      "id": 4,
       "first_name": "juancho",
       "last_name": "pancho",
       "email": "pancho@gmail.com",
@@ -31,7 +31,7 @@ export const data = {
       "status": "Inactive"
     },
     {
-      "id": "5",
+      "id": 5,
       "first_name": "Maria",
       "last_name": "Lopez",
       "email": "marialopez@gmail.com",
@@ -41,7 +41,7 @@ export const data = {
       "status": "Active"
     },
     {
-      "id": "6",
+      "id": 6,
       "first_name": "Angela",
       "last_name": "VIllamizar",
       "email": "angelavillamizar@gmail.com",
@@ -51,7 +51,7 @@ export const data = {
       "status": "Active"
     },
     {
-      "id": "7",
+      "id": 7,
       "first_name": "Julio",
       "last_name": "Cárdenas",
       "email": "juliocardenas@gmail.com",

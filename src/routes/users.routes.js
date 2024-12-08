@@ -39,5 +39,20 @@ router.post("/users/login", (req, res) => {
   res.json(response); 
 });
 
+//PUT, editar usuario
+router.put("/users/:id", (req, res) => {
+  const { id } = req.params;
+  const userData = req.body;
+  
+  const { message, updatedUser } = usersControllers.updateUser(id, userData);
+  res.json({ message, updatedUser });
+});
+
+//DELETE usuario
+router.delete("/users/:id", (req, res) => {
+  const { id } = req.params;
+  const { message } = usersControllers.deleteUser(id);
+  res.json({ message });
+});
 
 export default router;

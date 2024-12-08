@@ -73,7 +73,35 @@ login: (email, password) => {
       return { message: "This user already exists" };
     }
   },
-    
+
+
+  //Función de actualizar usuario
+  updateUser: (id, userData) => {
+    const userIndex = data.users.findIndex((user) => user.id === parseInt(id));
+    if (userIndex === -1) {
+      return { message: "User not found" };
+    }
+
+    //Actualización de datos del usuario
+    data.users[userIndex] = { ...data.users[userIndex], ...userData };
+    console.log("Updated user:", data.users[userIndex]);
+
+    return { message: "User updated successfully", updatedUser: data.users[userIndex] };
+  },
+
+  //Función DELETE users
+  deleteUser: (id) => {
+    const userIndex = data.users.findIndex((user) => user.id === parseInt(id));
+    if (userIndex === -1) {
+      return { message: "User not found" };
+    }
+
+    //DELETE usuario
+    data.users.splice(userIndex, 1);
+    console.log("Remaining users:", data.users);
+
+    return { message: "User deleted successfully" };
+  },
 };
 
 export default usersControllers;
